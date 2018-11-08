@@ -1,0 +1,6 @@
+<nav>
+  <img sm-item src="../../assets/thelarsen.png" title="TheLarsen"/>
+</nav>
+<sm-menu class="three item menu">
+    <a sm-item *ngFor="let item of items" [icon]="item.icon">{{item?.title}}</a>  
+</sm-menu>
